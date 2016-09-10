@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (3.5.0)
+  - AlamofireImage (2.5.0):
+    - Alamofire (~> 3.5)
+  - IQKeyboardManagerSwift (4.0.5)
+  - Muon (0.1.0)
+  - Realm (1.0.2):
+    - Realm/Headers (= 1.0.2)
+  - Realm/Headers (1.0.2)
+  - RealmSwift (1.0.2):
+    - Realm (= 1.0.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - IQKeyboardManagerSwift
+  - Muon (from `https://github.com/younata/Muon.git`)
+  - RealmSwift
+
+EXTERNAL SOURCES:
+  Muon:
+    :git: https://github.com/younata/Muon.git
+
+CHECKOUT OPTIONS:
+  Muon:
+    :commit: cc9bfd07d6e7a6175e3b65880c46922858c939ce
+    :git: https://github.com/younata/Muon.git
+
+SPEC CHECKSUMS:
+  Alamofire: b70a7352335f8ea5babd0a923eb7e8eacc67b877
+  AlamofireImage: 2d34936e5201270bb17a316a786e90e83b4a249d
+  IQKeyboardManagerSwift: 41fd3a45a2cdb2a0e031af697708a95b865068a1
+  Muon: 69377f7084fccb18ce13fe90a008ed872427224c
+  Realm: 9d5c46a4d7d27958530a8dfc58f63a99e5c2cba3
+  RealmSwift: 82f3ac5e24530143dddfde2033acc0d308f27d96
+
+COCOAPODS: 0.39.0
